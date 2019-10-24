@@ -45,7 +45,7 @@ h2 {
 
 /*Mobile - Small Devices*/
 @media (max-width: 767px) {
-	.p {
+	p {
 		float: left;
 	}
 
