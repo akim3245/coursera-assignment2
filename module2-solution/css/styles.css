@@ -9,16 +9,18 @@ h2 {
 
 /*Desktop - Large Devices*/
 @media (min-width: 992px) {
-	.p {
+	p { 
 		float: left;
-	}
+	 }
 
 	#p1 {
 		width: 33.33%;
 	}
+
 	#p2 {
 		width: 33.33%;
 	}	
+
 	#p3 {
 		width: 33.33%;
 	}
@@ -26,20 +28,18 @@ h2 {
 
 /*Tablet - Medium Devices*/
 @media (min-width: 768px) and (max-width: 991px) {
-	.p {
-		float: left;
-	}
-
 	#p1 {
 		width: 50%;
 	}
 
 	#p2 {
 		width: 50%;
-
+		float: left;
 	}
+
 	#p3 {
 		width: 100%;
+		float: left;
 	}
 }
 
