@@ -9,10 +9,6 @@ h2 {
 
 /*Desktop - Large Devices*/
 @media (min-width: 992px) {
-	p { 
-		float: left;
-	 }
-
 	#p1 {
 		width: 33.33%;
 	}
