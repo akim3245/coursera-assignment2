@@ -2,50 +2,85 @@
 	box-sizing: border-box;
 }
 
+body, .navbar {
+	font-family: "arial";
+}
+
+.navbar {
+	background-color: #CBF5EA;
+	padding: 0;
+}
+
+.navbar .container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+h1 {
+	font-weight: bold;
+	padding: 10px 10px 8px 25px;
+}
+
 #navbarToggler .navbar-nav {
-	background-color: gray;
+	background-color: #ECFDE4;
 	padding-bottom: 5px;
 	padding-top: 5px;
 }
 
 #navbarToggler .nav .nav-item {
 	text-align: center;
-	}
+}
 
 #navbarToggler .nav .nav-item .text {
-	color: navy;
+	color: #479783;
 }
 
 #navbarToggler .nav .nav-item a:hover {
 	text-decoration: none;
-	color: maroon;
+	color: #F795A7;
 }
 
 .ourmenu-title {
 	text-align: center;
 	padding-top: 15px;
 	font-weight: bold;
-	letter-spacing: 1px;
+	font-size: 2em;
+	letter-spacing: 5px;
+	text-shadow: 1px 2px 5px #202020, 1px 1px 0.3em #672600;
+	color: white;
+	margin-bottom: 20px;
+	margin-top: 15px;
 }
 
 .section-box {
-	background-color: gray;
-	margin: 15px;
 	padding: 10px;
-	height: 700px;
+	height: auto;
 	width: 100%;
+	background-color: #FFE0CE;
+	border-radius: 25px;
+	margin-bottom: 25px
 }
 
 .section-box h3 {
 	text-align: center;
 	font-weight: bold;
+	font-family: cursive;
 }
-
-
 
 .bottom-section #to-top {
 	position: absolute;
-	right: 10px;
-	bottom: 15px;
+	right: 25px;
+	bottom: 25px;
+	color: #30856F;
+	background-color: #FFBC95;
+	margin-bottom: 10px;
+	margin-right: 4px;
+	border-radius: 10% / 50%;	
+	padding: 3px 8px;
+}
+
+p {
+	padding: 8px;
+	margin-bottom: 40px;
 }
 
